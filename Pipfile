@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "<2.2.0,>=2.1.0"
+djangorestframework = "<3.9.0,>=3.8.2"
+
+[dev-packages]
+flake8 = "==4.0.1"
+black = "==21.9b0"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
