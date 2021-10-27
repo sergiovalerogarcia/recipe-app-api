@@ -26,3 +26,10 @@ services:
       - POSTGRES_DB=app
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=supersecretpassword
+
+  adminer:
+    image: adminer:latest
+    environment:
+        ADMINER_DEFAULT_SERVER: db
+    ports:
+      - 8080:8080
