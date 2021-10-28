@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 Django = "<2.2.0,>=2.1.0"
 djangorestframework = "<3.9.0,>=3.8.2"
+Pillow = ">=5.3.0,<5.4.0"
 
 [dev-packages]
 flake8 = "==4.0.1"
