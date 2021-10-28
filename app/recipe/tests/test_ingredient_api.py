@@ -76,8 +76,8 @@ class PrivateIngredientsApiTests(TestCase):
 
         self.assertTrue(exists)
 
-    def test_create_tag_invalid(self):
-        """Test creating a new tag with invalid payload"""
+    def test_create_ingredient_invalid(self):
+        """Test creating a new ingredient with invalid payload"""
         payload = {"name": ""}
 
         res = self.client.post(INGREDIENTS_URL, payload)
